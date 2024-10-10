@@ -1,0 +1,11 @@
+what does the following javascript function do 
+
+ function isPalindrome(str) {
+    return str === str.split('').reverse().join('');
+}
+The JavaScript function isPalindrome checks if a given string "str" is a palindrome. A palindrome is a word or phrase that reads the same forward and backward. Here’s how the function works:
+str.split(''): Splits the string into an array of individual characters.
+reverse(): Reverses the order of the array.
+join(''): Joins the reversed array back into a single string.
+str === ...: Compares the original string with the reversed string to see if they are the same.
+If the string is the same when reversed, the function returns true, indicating that str is a palindrome. If not, it returns false.
